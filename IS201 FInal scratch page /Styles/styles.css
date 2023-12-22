@@ -1,0 +1,97 @@
+/* General Body Styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #003366; /* Dark blue background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333; /* Dark background for nav */
+    color: white;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+/* Link hover effect */
+nav ul li a:hover {
+    background-color: #007acc; /* Light blue on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Section Styles */
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+}
+
+/* Image Styles */
+img.featured-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Center image and add spacing */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Headings Styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #d35400; /* Orange color for headings */
+}
+
+/* Video Styles */
+.video {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tableau Embed Styles */
+.tableau iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+/* Add additional styles as needed */
